@@ -8,7 +8,6 @@ const Navbar = () => {
         <li className="p-4">Home</li>
         <li className="p-4">Kitties</li>
         <li className="p-4">About</li>
-        <li>sdasdas</li>
       </ul>
     </div>
   );

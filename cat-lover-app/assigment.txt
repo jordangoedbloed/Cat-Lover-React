@@ -1,0 +1,48 @@
+Praktijkopdracht 2 - CMTPRG04-6
+
+Maak een webapplicatie met behulp van React (of een ander front-end javascript framework in overleg
+met de docent).
+
+Op deze pagina is het mogelijk om een overzicht van de items in een RESTful webservice te bekijken.
+Dit overzicht is een lijst, zonder alle details van de items. De details van een item moet je natuurlijk
+wel kunnen bekijken (detail pagina, openklappen van de lijst, popup, etc.). Ook moeten de items te
+bewerken zijn (een volledige CRUD front-end voor de webservice is dus de basiseis).
+
+Gebruik hiervoor bij voorkeur je eigen RESTful backend service gemaakt in het eerste deel van deze
+module. Mocht je die niet werkend hebben kun je webservice van Notes of Chess Spots gebruiken.
+Met address-bar routing is het ook mogelijk om direct bij de detailweergave van een item te komen.
+
+Je styling is netjes gedaan via Tailwind. Je kunt hiervoor bijvoorbeeld een template gebruiken via
+Tailwind Toolbox - Free Starter Templates.
+
+Optionele toevoegingen voor extra punten:
+• Werk met de Context API om gemakkelijk toegang te hebben tot je data in verschillende
+components, voorkom hiermee ook dat je losse fetch calls in je visuele components hebt
+staan.
+• Gebruik een Modal (popup overlay) voor bepaalde components en zorg dat deze ook direct
+met een uri te bereiken zijn vanuit de Router
+• Voeg 2 filters toe aan je applicatie waar je kunt zoeken/filteren binnen je collectie
+• Voeg een onderdeel toe dat je met een PATCH request update vanuit je lijst
+(favorite/bookmark/like/active achtige state)
+• In het overzicht zijn slechts X items zichtbaar, je kunt m.b.v. pagination door de collectie
+bladeren IPV dat alles in 1 keer getoond wordt.
+• Je applicatie maakt gebruik van React Transition Group om animaties toe te voegen die de
+pagina-overgangen mooier maken.
+
+Een voorbeeldapplicatie is hier te vinden: Chess Spotter (https://hr-cmgt.github.io/prg06-vite-react-antwan)
+
+Maak een screencast waarin je de volledige werking van je opdracht in onderstaande volgorde
+demonstreert.
+• Toon overzicht
+• Toon detail
+• Maak nieuw item aan
+• Bewerk item
+• Verwijder item
+• Laat zien dat een detail een eigen uri heeft
+• Laat zien dat je via die uri direct naar de detailweergave kunt
+• Demonstreer je optionele toevoegingen
+Als je klaar bent lever je op Brightspace een zip-bestand in, met daarin:
+• De broncode,
+• Een tekstbestand met de link naar je screencast en een uitleg van de optionele toevoegingen
+(check of de screencast het doet in ‘incognito-modus’, zodat je zeker weet dat hij door
+iedereen bekeken kan worden!)
