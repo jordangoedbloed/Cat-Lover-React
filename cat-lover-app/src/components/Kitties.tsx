@@ -52,6 +52,9 @@ function Kitties() {
     <div>
       <Navbar />
       <div className="flex justify-center items-center flex-col">
+        <button className="bg-primaryBrown1 text-white px-4 py-2 rounded-md">
+          <Link to="/kitties/create">Create Kitty</Link>
+        </button>
         <input
           type="text"
           placeholder="Search by name..."

@@ -1,21 +1,3 @@
-// import { Link } from "react-router-dom";
-// import CreateKitty from "./CreateKitty";
-
-// const CreateKittyPage = ({ onCreate }: { onCreate: any }) => {
-//   return (
-//     <div className="flex flex-col items-center">
-//       <Link to="/kitties" className="mt-4 text-blue-500 hover:underline">
-//         Back to Kitties
-//       </Link>
-//       <CreateKitty onCreate={onCreate} />
-//     </div>
-//   );
-// };
-
-// export default CreateKittyPage;
-
-// CreateKittyPage.tsx
-
 import { Link } from "react-router-dom";
 import CreateKitty from "./CreateKitty";
 
