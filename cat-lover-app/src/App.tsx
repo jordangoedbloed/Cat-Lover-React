@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import Kitties from "./components/Kitties";
 import CreateKittyPage from "./components/CreateKittyPage";
 import KittyDetails from "./components/KittyDetails"; // Import the KittyDetails component
+import About from "./components/About";
 import "./App.css";
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<h1>About</h1>} />
+          <Route path="/about" element={<About />} />
           <Route path="/kitties" element={<Kitties />} />
           <Route path="/kitties/create" element={<CreateKittyPage />} />
           <Route path="/kitties/:id" element={<KittyDetails />} />

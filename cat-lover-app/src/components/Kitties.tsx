@@ -3,6 +3,7 @@ import { kittyType } from "../types/kitty";
 import { Link } from "react-router-dom";
 import Pagination from "../components/Pagination";
 import Navbar from "./common/Navbar";
+import Footer from "./common/Footer";
 
 function Kitties() {
   const [kitties, setKitties] = useState([]);
@@ -84,6 +85,7 @@ function Kitties() {
         totalPosts={kitties.length}
         paginate={paginate}
       />
+      <Footer />
     </div>
   );
 }
